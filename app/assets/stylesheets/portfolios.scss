@@ -1,0 +1,192 @@
+// Place all the styles related to the portfolios controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+@media(max-width: 768px){
+	.about{
+		padding-top: 5px;
+	}
+	.about p{
+		font-size: 55%
+	}
+	.nav li{
+		display: inline-block;
+	}
+	.language, .frameworks, .databases{
+		height: 275px !important;
+	}
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+header{
+	
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/dev.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.parallax2{
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('dev1.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.main-nav {
+	display: block;
+	width: 100% !important;
+}
+
+.main-nav a:link, 
+.main-nav a:visited{
+	text-decoration: none;
+	font-size: 130%;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: #3498db;
+	border-radius: 15px;
+	color: white;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-right: 30px;
+	padding-bottom: 15px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	margin-top: 2px;
+	color: blue;
+}
+
+.sticky{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
+.about{
+	color: white;
+	letter-spacing: 2px;
+	padding-top: 110px;
+	font-size: 30px;
+}
+
+.about img{
+	border-radius: 50%;
+	height: 200px;
+	margin-bottom: 15px;
+}
+
+
+.languages, .frameworks, .databases{
+	display: inline-block;
+	border-radius: 25px;
+	border: 1px solid black;
+	background-color: #e7e7e7;
+	margin-bottom: 15px;
+	height: 320px;
+}
+
+.lang, .frame, .data{
+	display: inline-block;
+}
+
+
+.lang h1, .data h1, .frame h1{
+	font-size: 15px;
+}
+
+.languages img, .frameworks img, .databases img{
+	width: 58px;
+	margin: 15px;
+}
+
+.projects{
+	text-align: center;
+}
+
+.projects h1{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-bottom: 5px;
+}
+
+.projects h1:after{
+	border-bottom: 1px solid black;
+}
+
+.projects img{
+	width: 600px;
+	background-color: grey;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.projects p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.education h1{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.edu{
+	margin-bottom: 40px;
+	margin-top: 20px;
+	display: block;
+	text-align: center;
+}
+
+.edu img{
+	width: 150px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.edu h4 p{
+	display: inline-block;
+	text-align: center;
+}
+
+#contact-info{
+	text-align: center;
+	background-color: #333;
+	color: #888;
+}
+
+#contact-info i{
+	font-size: 50px;
+	color: #3498db;
+	margin-left: 15px;
+	position: relative;
+	bottom: 0;
+}
+
+#contact-info i:hover{
+	color: white;
+	transition: all 0.2s ease-in-out;
+	bottom: 5px;
+}
